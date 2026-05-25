@@ -1,0 +1,150 @@
+export const trTranslations = {
+  // Header
+  brandName: "Foodi",
+  brandTagline: "Fast food delivery system",
+  trackOrder: "Siparişi Takip Et",
+
+  // Hero
+  heroTitle: "Yemek siparişini modern ve temiz bir deneyimle ver.",
+  heroDescription: "Favori restoranını seç, sepetine ekle ve siparişin kapına gelene kadar anlık olarak takip et.",
+  heroCta: "Restoranları Keşfet",
+  heroTrackCta: "Siparişini Takip Et",
+  heroBadge: "Hızlı ve Güvenilir Teslimat",
+
+  // Search
+  searchPlaceholder: "Restoran ara...",
+
+  // Restaurants
+  restaurantsTitle: "Öne Çıkan Restoranlar",
+  restaurantsSubtitle: "Bölgenizdeki en iyi restoranları keşfedin",
+  deliveryTime: "dk",
+  viewMenu: "Menüyü Gör",
+  rating: "Puan",
+  restaurantsCountSuffix: "restoran",
+
+  // Restaurant Page
+  backToRestaurants: "Restoranlara Dön",
+  menuTitle: "Menü",
+  addToCart: "Sepete Ekle",
+  addedToCart: "Eklendi",
+  categories: "Kategoriler",
+  all: "Tümü",
+  items: "ürün",
+  restaurantOpen: "Açık",
+  restaurantClosed: "Kapalı",
+  emptyCartMsg: "Sepetiniz boş",
+  clearCart: "Sepeti Boşalt",
+
+  // Cart
+  cartTitle: "Sepetiniz",
+  emptyCart: "Sepetiniz boş",
+  total: "Toplam",
+  checkout: "Siparişi Tamamla",
+  remove: "Kaldır",
+  quantity: "Adet",
+
+  // Checkout
+  checkoutTitle: "Siparişi Tamamla",
+  fullName: "Ad Soyad",
+  phone: "Telefon Numarası",
+  address: "Adres",
+  floor: "Kat",
+  apartment: "Daire",
+  block: "Blok",
+  paymentMethod: "Ödeme Yöntemi",
+  cash: "Nakit",
+  card: "Kart",
+  tip: "Bahşiş",
+  notes: "Sipariş Notları",
+  confirmOrder: "Siparişi Onayla",
+  orderSuccess: "Siparişiniz başarıyla onaylandı!",
+  trackingCode: "Takip Kodu",
+  orderSummary: "Sipariş Özeti",
+  restaurantLabel: "Restoran",
+  subtotal: "Ara Toplam",
+  grandTotal: "Genel Toplam",
+  cashOnDelivery: "Kapıda nakit ödeme",
+  cardPayment: "Banka kartı ile ödeme (Stripe bağlantısı gerekli)",
+  browseRestaurants: "Restoranlara Göz At",
+  backToHome: "Ana Sayfaya Dön",
+
+  // Track
+  trackTitle: "Siparişini Takip Et",
+  trackDesc: "Siparişinizin durumunu takip etmek için takip kodunu girin",
+  enterTrackingCode: "Takip kodunu gir",
+  trackButton: "Takip Et",
+  orderDetails: "Sipariş Detayları",
+  restaurant: "Restoran",
+  status: "Durum",
+  orderItems: "Sipariş Ürünleri",
+  price: "Fiyat",
+  orderNumber: "Sipariş Numarası",
+  orderTime: "Sipariş Zamanı",
+  orderNotFound: "Sipariş bulunamadı",
+  checkTrackingCode: "Takip kodunu kontrol edin ve tekrar deneyin",
+
+  // Status Steps
+  pending: "Beklemede",
+  preparing: "Hazırlanıyor",
+  onTheWay: "Yolda",
+  delivered: "Teslim Edildi",
+
+  // Admin
+  adminTitle: "Kontrol Paneli",
+  adminPanel: "Yönetim Paneli",
+  backToSite: "Siteye Dön",
+  adminRestaurants: "Restoranlar",
+  adminMenu: "Menü",
+  adminOrders: "Siparişler",
+  addRestaurant: "Restoran Ekle",
+  edit: "Düzenle",
+  delete: "Sil",
+  save: "Kaydet",
+  cancel: "İptal",
+  name: "Ad",
+  category: "Kategori",
+  actions: "İşlemler",
+  totalOrders: "Toplam Sipariş",
+  todayOrders: "Bugünkü Siparişler",
+  revenue: "Gelir",
+  activeRestaurants: "Aktif Restoranlar",
+  menuItems: "Menü Öğeleri",
+  addProduct: "Ürün Ekle",
+  product: "Ürün",
+  available: "Mevcut",
+  notAvailable: "Mevcut Değil",
+
+  // Footer
+  footerRights: "Tüm hakları saklıdır © Foodi 2026",
+
+  // Categories
+  category_burger: "Burger",
+  category_pizza: "Pizza",
+  category_shawarma: "Döner",
+  category_sushi: "Sushi",
+  category_cafe: "Kafe",
+  category_grill: "Izgara",
+  category_extras: "Yan Lezzetler",
+  category_drinks: "İçecekler",
+  category_chicken_wings: "Tavuk Kanatları",
+  category_bowls: "Tabaklar",
+  category_noodles: "Noodle",
+  category_coffee: "Kahve",
+  category_bakery: "Fırın",
+  category_breakfast: "Kahvaltı",
+  category_kebab: "Kebap",
+  category_salads: "Salatalar",
+
+  // Common
+  loading: "Yükleniyor...",
+  noResults: "Sonuç bulunamadı",
+  currency: "KWD",
+  notFound: "Sayfa Bulunamadı",
+  pageNotFoundDesc: "Aradığınız sayfa bulunamadı",
+  goHome: "Ana Sayfaya Dön",
+  thankYouOrder: "Siparişiniz için teşekkürler! Hemen hazırlamaya başlayacağız.",
+  telegramSent: "Telegram bildirimi admin'e gönderildi",
+  telegramSkipped: "Telegram bildirimi gönderilemedi (Supabase bağlayın)",
+};
+
+export default trTranslations;
